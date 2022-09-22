@@ -12,6 +12,23 @@ a:hover {
   color: var(--color-primary);
 }
 
+.bold {
+  font-weight: 600;
+}
+
 ul {
   list-style: none;
+}
+
+.swiper-pagination-bullet {
+  cursor: pointer;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: var(--color-primary);
+}
+
+.swiper-pagination-bullet:not(.swiper-pagination-bullet-active):hover {
+  background-color: var(--color-black);
+  opacity: 1;
 }

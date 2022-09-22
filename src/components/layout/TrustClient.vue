@@ -12,7 +12,7 @@ const clientAlts = ["CA CIB", "Nexity", "Bouygues Immobilier", "CA Immobilier"];
       de la promotion immobilière optimisent leur activité
     </p>
     <ul>
-      <li v-for="i in 4" :key="i" class="logo-client">
+      <li v-for="i in 4" :key="i + 'client'" class="logo-client">
         <img
           :src="`/static/clients/client${i}\.png`"
           :alt="'Logo ' + clientAlts[i]"
