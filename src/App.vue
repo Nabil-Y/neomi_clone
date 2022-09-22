@@ -1,9 +1,9 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import HomePage from "./views/HomePage.vue";
+</script>
 
 <template>
-  <main>
-    <p>Lol</p>
-  </main>
+  <HomePage />
 </template>
 
 <style scoped></style>

@@ -1,1 +1,17 @@
 @import "./base.css";
+
+a {
+  color: var(--color-primary);
+}
+
+a:hover {
+  color: var(--color-primary-hover);
+}
+
+.orange {
+  color: var(--color-primary);
+}
+
+ul {
+  list-style: none;
+}
